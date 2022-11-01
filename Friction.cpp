@@ -10,7 +10,7 @@ int main()
     cin>>mass;
 
 
-    cout<<"Enter Coefficient of material  / mu "<<endl;
+    cout<<"Select material i,e Coefficient  / mu "<<endl;
     cout<<"1.Wood"<<endl;
     cout<<"2.Steel"<<endl;
     cout<<"3.Brick"<<endl;
@@ -20,7 +20,7 @@ int main()
     switch(coefficient)
     {
     case 1:
-    cout<<"This Friction between pieces of wood is "<<0.7*mass*g<<endl;
+    cout<<"The Friction between Pieces of wood is "<<0.7*mass*g<<endl;
     break;
 
     case 2:
